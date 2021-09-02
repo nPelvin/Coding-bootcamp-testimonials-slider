@@ -1,0 +1,21 @@
+body {
+  background-image: url("images/pattern-bg.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+/* 
+section {
+  position: absolute;
+  top: 50px;
+} */
+
+ /* .profileImage {
+  border-radius: 8px;
+  max-width: 70%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}  */
+
+

@@ -1,6 +1,7 @@
+
 .imageSection {
   background-image: url("images/pattern-bg.svg");
-  background-size: 90vw;
+  background-size: 80vw;
   background-repeat: no-repeat;
   background-position: center 20px;
 }

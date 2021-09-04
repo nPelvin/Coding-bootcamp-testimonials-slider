@@ -31,30 +31,109 @@
       }
     </style>
   </head>
-  <body class="container-fluid overflow-hidden">
-      <div class="profileImage row align-items-center justify-items-center pt-4 mt-4">
-        <div class="col-1"></div>
-              <div class="col-10"><img class="img-fluid rounded" src="images/image-tanya.jpg" alt="tanya image" /></div>
-        <div class="col-1"></div>
-    </div>
-    <div class="row">
-      “ I’ve been interested in coding for a while but never taken the jump,
-      until now. I couldn’t recommend this course enough. I’m now in the job of
-      my dreams and so excited about the future. ” Tanya Sinclair UX Engineer “
-      If you want to lay the best foundation possible I’d recommend taking this
+  <body class="container-fluid overflow-x-hidden">
+    <div
+      class="
+        d-flex
+        flex-column flex-md-row-reverse
+        align-items-center
+        justify-content-center
+        mt-4
+        main-section
+      "
+    >
+      <section class="imageSection p-3">
+        <div
+          class="profileImage row align-items-center justify-items-center mt-4"
+        >
+          <div class="col-1"></div>
+          <div class="col-10 p-3">
+            <img
+              class="img-fluid rounded"
+              id="imageTarget"
+              src="images/image-tanya.jpg"
+              alt="tanya image"
+            />
+            <button id="leftButton" class="leftButton button"><</button
+            ><button id="rightButton" class="rightButton button">></button>
+          </div>
+          <div class="col-1"></div>
+        </div>
+      </section>
+
+      <section
+        class="
+          quoteDesktop
+          flex-column
+          align-items-center
+          justify-content-around
+          p-4
+          text-center
+          d-none d-md-flex
+          mw-50
+        "
+      >
+        <div class="insideQuoteSection align-self-center">
+          <div id="desktopQuote" class="display-6 pe-1 ps-1">
+            “ I’ve been interested in coding for a while but never taken the
+            jump, until now. I couldn’t recommend this course enough. I’m now in
+            the job of my dreams and so excited about the future. ”<br /><br />
+          </div>
+
+          <div class="d-flex">
+            <div class="name text-center fw-bold" id="desktopName">
+              Tanya Sinclair
+            </div>
+            <div
+              class="desktopOccupation occupation text-center text-secondary"
+              id="desktopOccupation"
+            >
+              UX Engineer
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section
+        class="
+          quote
+          row
+          align-items-center
+          justify-content-center
+          p-4
+          text-center
+          d-md-none
+        "
+      >
+        <div id="mobileQuote">
+          “ I’ve been interested in coding for a while but never taken the jump,
+          until now. I couldn’t recommend this course enough. I’m now in the job
+          of my dreams and so excited about the future. ”<br /><br />
+        </div><br />
+        <div class="name text-center fw-bold" id="mobileName">
+          Tanya Sinclair
+        </div>
+        <p class="occupation text-center text-secondary" id="mobileOccupation">
+          UX Engineer
+        </p>
+      </section>
+
+      <!-- “ If you want to lay the best foundation possible I’d recommend taking this
       course. The depth the instructors go into is incredible. I now feel so
       confident about starting up as a professional developer. ” John Tarkpor
-      Junior Front-end Developer
-      </div>
+      Junior Front-end Developer -->
 
-      <div class="row attribution">
+      <!-- <div class="row attribution">
         Challenge by
         <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
           >Frontend Mentor</a
         >. Coded by <a href="http://lovestocode.com">Nigel Pelvin</a>.
-      </div>
+      </div> -->
+    </div>
+
+    <script src="script.js"></script>
   </body>
-  <footer class="row position-absolute bottom-0 start-0"><img src="images/pattern-curve.svg" alt="background curve image" />
-    
+  <footer class="position-absolute curve">
+    <img src="images/pattern-curve.svg" alt="background curve image" />
   </footer>
 </html>
